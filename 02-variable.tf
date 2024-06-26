@@ -3,7 +3,7 @@ variable "project" {
 }
 
 variable "vpc_cidr" {
-  default = "172.31.6.96"
+  default = "172.16.0.0/16"
 }
 
 variable "vpc_subnets" {
