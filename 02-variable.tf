@@ -3,7 +3,7 @@ variable "project" {
 }
 
 variable "vpc_cidr" {
-  default = "172.16.0.0/16"
+  default = "172.31.6.96"
 }
 
 variable "vpc_subnets" {
@@ -16,6 +16,6 @@ variable "type" {
 }
 
 variable "ami" {
-  description = "amazon linux 2 ami"
-  default = "ami-04b70fa74e45c3917"
+  description = "amazon  2 ubuntu ami"
+  default = "ami-09040d770ffe2224f"
 }
