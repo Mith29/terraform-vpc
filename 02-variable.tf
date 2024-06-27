@@ -17,5 +17,5 @@ variable "type" {
 
 variable "ami" {
   description = "amazon 2 linux ami"
-  default = "ami-01b799c439fd5516a"
+  default = "ami-04b70fa74e45c3917"
 }
